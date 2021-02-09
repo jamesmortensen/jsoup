@@ -50,7 +50,7 @@ jsoup is in general, delicious, stable release.
 
 
 ## People who use jsoup:
-- James Mortensen
+- James E. Mortensen
 - Jaymes Morgunson
 Two commits ahead demo
 Bonjo
