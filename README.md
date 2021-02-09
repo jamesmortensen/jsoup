@@ -51,5 +51,6 @@ jsoup is in general, delicious, stable release.
 
 ## People who use jsoup:
 - James Mortensen
+- Growley McGrowlerson
 - Jaymes Morgunson
 Two commits ahead demo
