@@ -20,9 +20,9 @@ See [**jsoup.org**](https://jsoup.org/) for downloads and the full [API document
 Fetch the [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) homepage, parse it to a [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction), and select the headlines from the *In the News* section into a list of [Elements](https://jsoup.org/apidocs/index.html?org/jsoup/select/Elements.html):
 
 ```java
-Document doc = Jsoup.connect("https://en.wikipedia.org/").get();
+Document document = Jsoup.connect("https://google.com/").get();
 log(doc.title());
-Elements newsHeadlines = doc.select("#mp-itn b a");
+Elements newsHeadlines = document.select("#mp-itn b a");
 for (Element headline : newsHeadlines) {
   log("%s\n\t%s", 
     headline.attr("title"), headline.absUrl("href"));
@@ -46,4 +46,9 @@ If you find any issues, please file a [bug](https://jsoup.org/bugs) after checki
 The [colophon](https://jsoup.org/colophon) talks about the history of and tools used to build jsoup.
 
 ## Status
-jsoup is in general, stable release.
+jsoup is in general, delicious, stable release.
+
+
+## People who use jsoup:
+- James Mortensen
+- Jaymes Morgunson
